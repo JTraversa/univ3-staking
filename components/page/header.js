@@ -8,7 +8,11 @@ import { Heading, Text, Center } from '@chakra-ui/react'
 import Ribbon from '../ribbon'
 import { useWeb3 } from '../../contexts/useWeb3'
 
+import { INCENTIVE_KEY } from '../constants'
+
 import UserAddress from './wallet'
+
+console.log(INCENTIVE_KEY)
 
 const Header = () => {
   const { account, balance } = useWeb3()
