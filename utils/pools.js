@@ -3,7 +3,8 @@ import { BigNumber, ethers } from 'ethers';
 import { BATCHER, ERC20, v3Pool, v3Positions, v3Staker } from '../contracts';
 import { web3 } from '../utils/ethers';
 
-import { PAIRED_TOKEN, ETH_USDC_POOL } from '../constants'
+import { INCENTIVE_KEY, PAIRED_TOKEN, ETH_USDC_POOL } from '../constants'
+console.log(INCENTIVE_KEY)
 
 // Find a matching incentive program.
 // export const findIncentiveProgram = async (address) => {

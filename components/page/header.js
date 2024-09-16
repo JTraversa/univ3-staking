@@ -10,6 +10,8 @@ import { useWeb3 } from '../../contexts/useWeb3'
 
 import UserAddress from './wallet'
 
+console.log(INCENTIVE_KEY)
+
 const Header = () => {
   const { account, balance } = useWeb3()
   const { colorMode, toggleColorMode } = useColorMode()
@@ -31,10 +33,10 @@ const Header = () => {
           <Ribbon w={64} h={64} />
           <Box ml="2">
             <Heading size="lg" mb={2}>
-              Swivel LP Staking (April)
+              Swivel LP Staking (June)
             </Heading>
             <Text fontSize="lg" color="gray.500">
-              Stake your SWIV/USDC LP position until April 18th
+              Stake your SWIV/USDC LP position until June 20th
             </Text>
           </Box>
         </Flex>
